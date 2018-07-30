@@ -1,0 +1,104 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Whatsapp</title>
+	<!--Stylesheets-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" href="my.css" />
+</head>
+<body>
+  <!--Top nabvar with fixed header-->
+<div class="container-fluid fixed-top">
+	<div class="row top-header border-bottom d-flex justify-content-between" >
+    <div class="p-2 header-txt"><h3 class="text-white">WhatsApp</h3></div>
+    <div class="ml-auto p-2">
+		  <i class="fa fa-ellipsis-v search"></i>
+	    <i class="fa fa-search search"></i>
+    </div>
+  </div>
+  <div class="row top-header border-bottom nav1" >
+		<ul class="nav nav-tabs col-12 tab-header">
+      <li class="nav-item col">
+        <a class="nav-link nav-txt" href="index.html" >All</a>
+      </li>
+      <li class="nav-item col">
+        <a class="nav-link nav-txt" href="index.html" >Unread Chat</a>
+      </li>
+      <li class="nav-item col">
+        <a class="nav-link nav-txt" href="profile.html">Settings</a>
+      </li>
+    </ul>    
+  </div>
+</div>
+
+<!--Actual message window -->
+<div id="MainWindow" class="">
+  <div class="">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <a href="chat.html" class="d-flex justify-content-around chat-link">
+          <div class="p-2"><img class="rounded-circle" src="pic5.jpg"></div>
+          <div class="p-2"><b>Charry Yadav</b><p>Hi</p></div>
+          <div class="ml-auto p-2"><P class="date-text text-success ">11:30 PM</P><span class="badge badge-success badge-pill">1</span></div>
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a href="chat.html" class="d-flex justify-content-around chat-link">
+          <div class="p-2"><img class="rounded-circle" src="pic3.jpg"></div>
+          <div class="p-2"><b>Isha</b><p>OK</p></div>
+          <div class="ml-auto p-2"><P class="date-text">YESTERDAY</P> <span class="badge badge-success badge-pill"></span></div>
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a href="chat.html" class="d-flex justify-content-around chat-link">
+          <div class="p-2"><img class="rounded-circle" src="pic4.jpg"></div>
+          <div class="p-2"><b>Sandeep</b><p>Chal koi na...</p></div>
+          <div class="ml-auto p-2"><P class="date-text">YESTERDAY</P> <span class="badge badge-success badge-pill"></span></div> 
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a href="chat.html" class="d-flex justify-content-around chat-link">
+          <div class="p-2"><img class="rounded-circle" src="pic1.jpg"></div>
+          <div class="p-2"><b>Mitali</b><p>Aaj subah m jaise hi khr se nikla...</p></div>
+          <div class="ml-auto p-2"><P class="date-text text-success">7/22/18</P> <span class="badge badge-success badge-pill">1</span></div>
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a href="chat.html" class="d-flex justify-content-around chat-link">
+          <div class="p-2"><img class="rounded-circle" src="pic2.jpg"></div>
+          <div class="p-2"><b>Animik</b><p>5 min to hasta rha m</p></div>
+          <div class="ml-auto p-2"><P class="date-text text-success">7/19/18</P> <span class="badge badge-success badge-pill">3</span></div>
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a href="chat.html" class="d-flex justify-content-around chat-link">
+          <div class="p-2"><img class="rounded-circle" src="pic6.jpg"></div>
+          <div class="p-2"><b>Papa</b><p>When?</p></div>
+          <div class="ml-auto p-2"><P class="date-text">6/23/18</P> <span class="badge badge-success badge-pill"></span></div>
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a href="chat.html" class="d-flex justify-content-around chat-link">
+          <div class="p-2"><img class="rounded-circle" src="pic7.jpg"></div>
+          <div class="p-2"><b>P K Yadav</b><p>Hey There</p></div>
+          <div class="ml-auto p-2"><P class="date-text text-success">6/22/18</P> <span class="badge badge-success badge-pill">1</span></div>
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a href="chat.html" class="d-flex justify-content-around chat-link">
+          <div class="p-2"><img class="rounded-circle" src="pic8.jpg"></div>
+          <div class="p-2"><b>Shivaaypuri</b><p>Are koi baat nhi</p></div>
+          <div class="ml-auto p-2"><P class="date-text text-success" >6/7/18</P> <span class="badge badge-success badge-pill">1</span></div>
+        </a>
+      </li>  
+    </ul>
+  </div>
+</div>
+
+	<!--Scripts-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</body>
+</html>
